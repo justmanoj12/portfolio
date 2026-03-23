@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="50" fill="#ffffff"/>
+  <!-- Head -->
+  <circle cx="128" cy="65" r="35" fill="#1e293b"/>
+  <!-- Body/Suit -->
+  <path d="M 50 220 L 75 125 C 85 95 105 85 128 85 C 151 85 171 95 181 125 L 206 220 Z" fill="#1e293b"/>
+  <!-- Shirt/Collar -->
+  <polygon points="105,85 151,85 128,115" fill="#ffffff"/>
+  <!-- Tie -->
+  <polygon points="125,100 131,100 136,160 128,175 120,160" fill="#ff5e00"/> 
+  <!-- Briefcase Handle -->
+  <path d="M 40 160 L 40 140 C 40 135 45 130 50 130 L 70 130 C 75 130 80 135 80 140 L 80 160 Z" fill="none" stroke="#1e293b" stroke-width="6"/>
+  <!-- Briefcase Body -->
+  <rect x="25" y="150" width="70" height="50" rx="4" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+  <!-- Briefcase Lock -->
+  <rect x="55" y="150" width="10" height="8" rx="1" fill="#cbd5e1"/>
+</svg>

@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@theme {
+  --color-primary: #ffffff;
+  --color-accent: #ff5e00; 
+  --color-slate: #64748b;  
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-primary);
+    color: #111827;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+}

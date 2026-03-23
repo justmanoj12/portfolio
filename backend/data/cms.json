@@ -1,0 +1,43 @@
+{
+  "personal": {
+    "name": "Manoj Kumar G",
+    "title": "The Digital Architect",
+    "roles": ["Full-Stack Engineer", "Automation Engineer", "Creative Director"],
+    "bio": "Crafting high-performance digital experiences and robust test automation frameworks.",
+    "email": "manoj@example.com"
+  },
+  "projects": [
+    {
+      "id": "virtual-exhibition",
+      "title": "Virtual Exhibition",
+      "subtitle": "Interactive 3D Experience",
+      "description": "A high-performance interactive 3D virtual exhibition highlighting premium editorial photography.",
+      "tech": ["React", "Three.js", "Framer Motion", "Tailwind CSS"],
+      "image": "/images/exhibition.jpg"
+    },
+    {
+      "id": "automation-frameworks",
+      "title": "Test Automation Frameworks",
+      "subtitle": "End-to-End Testing",
+      "description": "Robust and resilient end-to-end automation frameworks using Python and modern CI/CD tools.",
+      "tech": ["Python", "Selenium", "Pytest", "Jenkins"],
+      "image": "/images/automation.jpg"
+    }
+  ],
+  "experience": [
+    {
+      "id": "e1",
+      "role": "Senior Full-Stack Engineer",
+      "company": "Tech Corp",
+      "years": "2023 - Present",
+      "description": "Leading the development of highly scalable web applications."
+    },
+    {
+      "id": "e2",
+      "role": "Automation Engineer",
+      "company": "QA Solutions",
+      "years": "2020 - 2023",
+      "description": "Designed and maintained enterprise-level automation strategies."
+    }
+  ]
+}
