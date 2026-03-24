@@ -64,7 +64,7 @@ export default function ProjectGallery() {
       mainPortions: ["Course Management", "Auth System", "Progress Tracking"],
       techStack: ["PHP", "TAILWIND CSS", "MYSQL", "JWT", "VIDEOS"],
       github: "https://github.com/justmanoj12/skill-up",
-      demo: "#",
+      demo: "https://skillup04.netlify.app/",
       image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
       icon: <Code2 size={20} className="text-[#ff5e00]" />
     },
