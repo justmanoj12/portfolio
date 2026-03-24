@@ -46,6 +46,18 @@ export default function ProjectGallery() {
   const projects = [
     {
       id: "01",
+      features: ["E-COMMERCE", "WEB PLATFORM", "DASHBOARD"],
+      title: "Virtual Exhibition",
+      description: "An immersive Virtual Exhibition Platform designed to bridge the gap between physical showcases and digital accessibility. This platform enables global users to explore high-fidelity interactive digital booths, view detailed exhibit renderings, and seamlessly purchase featured items online. It incorporates advanced exhibitor dashboards for real-time analytics, real-time chat support, and dynamic spatial mapping, creating a truly barrier-free digital exhibition experience.",
+      mainPortions: ["Exhibitor Dashboards", "Virtual Showcasing", "Online Sales"],
+      techStack: ["REACT", "NODE.JS", "MONGODB", "EXPRESS", "SOCKET.IO"],
+      github: "https://github.com/justmanoj12/virtual-exhibition-platform",
+      demo: "https://virtual-exhibition-platform.vercel.app/",
+      image: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1200&auto=format&fit=crop",
+      icon: <Layers size={20} className="text-[#ff5e00]" />
+    },
+    {
+      id: "02",
       features: ["E-LEARNING", "FULL-STACK", "PLATFORM"],
       title: "SkillUp Online",
       description: "A comprehensive, full-stack educational platform built to scale. SkillUp Online provides an end-to-end learning environment where students can discover multimedia courses, enroll securely via integrated payment gateways, and track their comprehensive learning journey through interactive dashboards. The platform features automated certificate generation upon course completion, secure JWT authentication, and a robust admin panel for instructors to manage curriculum seamlessly.",
@@ -57,7 +69,7 @@ export default function ProjectGallery() {
       icon: <Code2 size={20} className="text-[#ff5e00]" />
     },
     {
-      id: "02",
+      id: "03",
       features: ["AI", "WEB BOT", "CHATBOT"],
       title: "Transit Scheduler",
       description: "Built an intelligent web-based chatbot system specifically designed to handle dynamic transit scheduling, fare calculations, and real-time route optimization. This platform eliminates the friction of manual travel searches by employing advanced Natural Language Processing to understand user queries, pulling live data from transportation APIs, and displaying optimized itineraries instantaneously within an intuitive chat interface.",
@@ -67,18 +79,6 @@ export default function ProjectGallery() {
       demo: "https://public-transist-tracker-7i35.onrender.com",
       image: "/images/transportation-logistics-services.jpg",
       icon: <Zap size={20} className="text-[#ff5e00]" />
-    },
-    {
-      id: "03",
-      features: ["E-COMMERCE", "WEB PLATFORM", "DASHBOARD"],
-      title: "Virtual Exhibition",
-      description: "An immersive Virtual Exhibition Platform designed to bridge the gap between physical showcases and digital accessibility. This platform enables global users to explore high-fidelity interactive digital booths, view detailed exhibit renderings, and seamlessly purchase featured items online. It incorporates advanced exhibitor dashboards for real-time analytics, real-time chat support, and dynamic spatial mapping, creating a truly barrier-free digital exhibition experience.",
-      mainPortions: ["Exhibitor Dashboards", "Virtual Showcasing", "Online Sales"],
-      techStack: ["REACT", "NODE.JS", "MONGODB", "EXPRESS", "SOCKET.IO"],
-      github: "https://github.com/justmanoj12/virtual-exhibition-platform",
-      demo: "https://virtual-exhibition-platform.vercel.app/",
-      image: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1200&auto=format&fit=crop",
-      icon: <Layers size={20} className="text-[#ff5e00]" />
     }
   ];
 
